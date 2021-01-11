@@ -35,6 +35,16 @@ def clean_data(train, test, y):
     return train, test, y
 
 def sort_X_train_and_test_data(train, test):
+    '''
+    Sorts and returns X_train and X_test data sets
+    Parameters
+    ----------
+    train : DataFrame
+        train data
+    test : DataFrame
+        test data
+    '''
+
     train.index = pd.to_numeric(train.index) 
     test.index = pd.to_numeric(test.index)
     #y.index = pd.to_numeric(y.index)

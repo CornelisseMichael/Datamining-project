@@ -28,6 +28,15 @@ def get_number_of_attributes(pca_variance_percentage):
     return no_attributes
 
 def get_pca_data_sets(pca_complete, no_attributes):
+    '''
+    returns cropped pca data test and the split pca_train, pca_test data sets.
+    Parameters
+    ----------
+    pca_complete : Numpy array
+        contains the pca values both the training and test data
+    no_attributes : int
+        number of principle components that explain the variance
+    '''
     #Crop pca_data
     pca_data = np.delete(pca_complete, slice(no_attributes, len(pca_complete)) , 1)
     
