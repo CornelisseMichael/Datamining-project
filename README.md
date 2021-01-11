@@ -22,7 +22,7 @@ conda install python-graphviz
 
 ***xgboost*** library we developed this project on a windows machine to use this library in windows follow the following steps: 
 
-1. Download the package from <a href="httpshttps://www.lfd.uci.edu/~gohlke/pythonlibs/#xgboost" target="_blank">this</a> website. `We used version: xgboost-1.3.1-cp38-cp38-win_amd64.whl`
+1. Download the package from <a href="https://www.lfd.uci.edu/~gohlke/pythonlibs/#xgboost" target="_blank">this</a> website. `We used version: xgboost-1.3.1-cp38-cp38-win_amd64.whl`
 2. Put the package in directory `C:\`
 3. Open anaconda prompt
 4. Type `cd C:\`
